@@ -100,15 +100,6 @@
             // cmbCategory
             // 
             this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Items.AddRange(new object[] {
-            "Coffee",
-            "Tea",
-            "Lemonades",
-            "Cheese",
-            "Sauces",
-            "Dough",
-            "Meat",
-            "Vegetables"});
             this.cmbCategory.Location = new System.Drawing.Point(69, 85);
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(100, 21);
@@ -235,13 +226,13 @@
             this.lblPrice.AutoSize = true;
             this.lblPrice.Location = new System.Drawing.Point(15, 319);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(31, 13);
+            this.lblPrice.Size = new System.Drawing.Size(75, 13);
             this.lblPrice.TabIndex = 78;
-            this.lblPrice.Text = "Price";
+            this.lblPrice.Text = "Price (per unit)";
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(69, 316);
+            this.txtPrice.Location = new System.Drawing.Point(96, 316);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(55, 20);
             this.txtPrice.TabIndex = 77;
@@ -267,6 +258,7 @@
             this.Controls.Add(this.mnuMainMenuStrip);
             this.Name = "frmAddItem";
             this.Text = "Add inventory item";
+            this.Load += new System.EventHandler(this.frmAddItem_Load);
             this.mnuMainMenuStrip.ResumeLayout(false);
             this.mnuMainMenuStrip.PerformLayout();
             this.ResumeLayout(false);

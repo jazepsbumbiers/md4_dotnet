@@ -110,7 +110,7 @@
             this.dgdInventoryTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgdInventoryTable.Location = new System.Drawing.Point(12, 63);
             this.dgdInventoryTable.Name = "dgdInventoryTable";
-            this.dgdInventoryTable.Size = new System.Drawing.Size(828, 290);
+            this.dgdInventoryTable.Size = new System.Drawing.Size(873, 290);
             this.dgdInventoryTable.TabIndex = 10;
             // 
             // lblPriceOfItemsInventory
@@ -187,7 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 469);
+            this.ClientSize = new System.Drawing.Size(897, 494);
             this.Controls.Add(this.btnAddItem);
             this.Controls.Add(this.lblTotalPriceInventory);
             this.Controls.Add(this.txtTotalPriceInventory);
